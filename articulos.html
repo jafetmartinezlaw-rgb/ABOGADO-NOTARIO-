@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Artículos — Guías Legales y Notariales | Puerto Rico</title>
+<meta name="description" content="Artículos y guías sobre trámites notariales, sucesiones, bienes raíces y más en Puerto Rico, escritos por un abogado-notario en Arecibo." />
+<link rel="canonical" href="https://abogadosnotariospuertorico.com/articulos.html" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Artículos — Guías Legales y Notariales | Puerto Rico" />
+<meta property="og:description" content="Artículos y guías sobre trámites notariales, sucesiones, bienes raíces y más en Puerto Rico." />
+<meta property="og:url" content="https://abogadosnotariospuertorico.com/articulos.html" />
+<meta property="og:image" content="https://abogadosnotariospuertorico.com/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --bg-light:#F7F6F2;
+    --bg-line:#E6E3DA;
+    --ink:#1B1B18;
+    --ink-soft:#57564E;
+    --navy:#1F3A56;
+    --navy-deep:#132537;
+    --navy-mid:#2E5A82;
+    --gold:#C9A257;
+    --gold-light:#DCC07E;
+    --gold-deep:#A9803D;
+    --white:#FFFFFF;
+    --radius:6px;
+    --shadow: 0 12px 32px rgba(19,37,55,0.14);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important;}
+  }
+  body{margin:0;background:var(--white);color:var(--ink);font-family:'Inter',sans-serif;line-height:1.65;}
+  h1,h2,h3,h4{font-family:'Cormorant Garamond',serif;color:var(--ink);margin:0 0 .5em;line-height:1.2;font-weight:600;}
+  a{color:var(--navy-mid);}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px;}
+  :focus-visible{outline:3px solid var(--gold);outline-offset:2px;}
+
+  header.site{background:var(--bg-light);border-bottom:1px solid var(--bg-line);position:sticky;top:0;z-index:60;}
+  .header-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;max-width:1180px;margin:0 auto;flex-wrap:wrap;gap:14px;}
+  .brand{display:flex;align-items:center;gap:10px;text-decoration:none;}
+  .brand .brand-text{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:1.15rem;color:var(--navy);line-height:1.15;}
+  .brand .brand-text small{display:block;font-family:'Inter',sans-serif;font-weight:500;font-size:.66rem;color:var(--ink-soft);letter-spacing:.06em;text-transform:uppercase;margin-top:2px;}
+  nav.main-nav{display:flex;gap:26px;align-items:center;flex-wrap:wrap;}
+  nav.main-nav a{color:var(--ink);text-decoration:none;font-size:.92rem;font-weight:500;}
+  nav.main-nav a:hover{color:var(--navy-mid);}
+  #langToggle{background:var(--white);border:1px solid var(--bg-line);color:var(--navy);padding:7px 14px;border-radius:999px;cursor:pointer;font-size:.8rem;font-weight:600;}
+  #langToggle:hover{border-color:var(--gold);color:var(--gold-deep);}
+
+  .hero{
+    position:relative;overflow:hidden;color:var(--white);padding:60px 0 68px;
+    background:linear-gradient(120deg, var(--navy-deep) 0%, var(--navy) 55%, var(--navy-mid) 100%);
+  }
+  .hero .eyebrow{font-family:'IBM Plex Mono',monospace;color:var(--gold-light);font-weight:600;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px;display:inline-block;}
+  .hero h1{color:var(--white);font-size:clamp(1.9rem,3.6vw,2.6rem);max-width:680px;margin:0 0 .35em;}
+  .hero p{max-width:600px;color:#DCE3E9;font-size:1rem;margin:0;}
+
+  .articles-section{padding:56px 0 80px;}
+  .articles-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:26px;}
+  .article-card{
+    border:1px solid var(--bg-line);border-radius:var(--radius);overflow:hidden;
+    text-decoration:none;color:var(--ink);background:var(--white);
+    box-shadow:var(--shadow);transition:transform .15s, border-color .15s;
+    display:flex;flex-direction:column;
+  }
+  .article-card:hover{transform:translateY(-3px);border-color:var(--gold);}
+  .article-card .cat{
+    font-family:'IBM Plex Mono',monospace;font-size:.68rem;color:var(--gold-deep);
+    text-transform:uppercase;letter-spacing:.06em;padding:20px 22px 0;
+  }
+  .article-card h3{font-size:1.25rem;padding:6px 22px 0;color:var(--navy);}
+  .article-card p{font-size:.9rem;color:var(--ink-soft);padding:8px 22px 22px;margin:0;flex:1;}
+  .article-card .readmore{padding:0 22px 20px;font-size:.84rem;font-weight:700;color:var(--navy-mid);}
+
+  .empty-state{
+    text-align:center;padding:60px 24px;border:1px dashed var(--bg-line);border-radius:var(--radius);
+    color:var(--ink-soft);
+  }
+  .empty-state h3{color:var(--navy);}
+
+  footer.site{background:var(--bg-light);padding:44px 0;text-align:center;border-top:1px solid var(--bg-line);}
+  footer.site p{color:var(--ink-soft);font-size:.82rem;max-width:720px;margin:6px auto;font-family:'Inter',sans-serif;}
+  footer.site .contact{color:var(--navy);font-weight:700;font-size:1rem;margin-bottom:6px;font-family:'Cormorant Garamond',serif;}
+
+  @media(max-width:640px){nav.main-nav{display:none;}}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line x1="24" y1="6" x2="24" y2="34" stroke="#1F3A56" stroke-width="2"/>
+        <line x1="10" y1="12" x2="38" y2="12" stroke="#1F3A56" stroke-width="2"/>
+        <path d="M10 12 L4 22 A6 6 0 0 0 16 22 Z" stroke="#C9A257" stroke-width="2" fill="none" stroke-linejoin="round"/>
+        <path d="M38 12 L32 22 A6 6 0 0 0 44 22 Z" stroke="#C9A257" stroke-width="2" fill="none" stroke-linejoin="round"/>
+        <rect x="17" y="34" width="14" height="3" rx="1" fill="#1F3A56"/>
+        <rect x="20" y="37" width="8" height="4" rx="1" fill="#1F3A56"/>
+      </svg>
+      <span class="brand-text">Lcdo. Jafet Martínez Molina
+        <small data-i18n="brandTag">Abogado &amp; Notario — Arecibo, PR</small>
+      </span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html" data-i18n="navHome">Inicio</a>
+      <a href="servicios.html" data-i18n="navServices">Servicios</a>
+      <a href="articulos.html" data-i18n="navArticles">Artículos</a>
+      <a href="index.html#solicitar" data-i18n="navContact">Contacto</a>
+    </nav>
+    <button id="langToggle" onclick="toggleLang()">EN</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow" data-i18n="heroEyebrow">Artículos · Puerto Rico</span>
+    <h1 data-i18n="heroTitle">Guías claras sobre trámites legales y notariales en Puerto Rico</h1>
+    <p data-i18n="heroSub">Explicaciones directas, escritas por un abogado-notario, para que entienda su situación antes de contratar.</p>
+  </div>
+</section>
+
+<section class="articles-section wrap">
+  <div class="articles-grid" id="articlesGrid"></div>
+  <div class="empty-state" id="emptyState" style="display:none;">
+    <h3 data-i18n="emptyTitle">Estamos preparando nuestros primeros artículos</h3>
+    <p data-i18n="emptySub">Vuelva pronto — publicamos guías nuevas regularmente sobre declaraciones juradas, testamentos, sucesiones, bienes raíces y más.</p>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <p class="contact">Lcdo. Jafet Martínez Molina — <span data-i18n="footerRole">Abogado &amp; Notario Público, Arecibo, Puerto Rico</span></p>
+    <p>Tel/WhatsApp: (939) 390-5210 &nbsp;·&nbsp; Email: intakecetigroup@gmail.com</p>
+    <p data-i18n="footerDisclaimer">Este sitio web es solo con fines informativos y no constituye asesoramiento legal.</p>
+  </div>
+</footer>
+
+<script>
+/* =========================================================================
+   CONFIG DE ARTÍCULOS
+   Para añadir un artículo nuevo: copia un objeto de este arreglo, cámbiale
+   el id, título, resumen, categoría, y pon live:true. El "url" debe apuntar
+   al archivo HTML del artículo completo (ej. articulo-testamentos-pr.html)
+   que subes junto a este archivo.
+   Mientras no tengas el archivo del artículo listo, deja live:false — no
+   aparecerá en la lista, pero queda guardado el borrador.
+   ========================================================================= */
+const ARTICLES = [
+  // Ejemplo — copia este bloque para el próximo artículo real:
+  // {
+  //   id: "affidavit-que-es",
+  //   url: "articulo-affidavit-que-es.html",
+  //   live: true,
+  //   category_es: "Notaría", category_en: "Notarial",
+  //   title_es: "¿Qué es una declaración jurada y cuándo la necesito?",
+  //   title_en: "What is a sworn affidavit and when do you need one?",
+  //   summary_es: "Una guía breve sobre qué es un affidavit, para qué se usa en Puerto Rico y cómo se tramita correctamente.",
+  //   summary_en: "A short guide to what an affidavit is, what it's used for in Puerto Rico, and how to get one done correctly."
+  // }
+];
+
+const I18N = {
+  es: {
+    brandTag:"Abogado & Notario — Arecibo, PR", navHome:"Inicio", navServices:"Servicios", navArticles:"Artículos", navContact:"Contacto",
+    heroEyebrow:"Artículos · Puerto Rico",
+    heroTitle:"Guías claras sobre trámites legales y notariales en Puerto Rico",
+    heroSub:"Explicaciones directas, escritas por un abogado-notario, para que entienda su situación antes de contratar.",
+    emptyTitle:"Estamos preparando nuestros primeros artículos",
+    emptySub:"Vuelva pronto — publicamos guías nuevas regularmente sobre declaraciones juradas, testamentos, sucesiones, bienes raíces y más.",
+    readMore:"Leer más →",
+    footerRole:"Abogado & Notario Público, Arecibo, Puerto Rico",
+    footerDisclaimer:"Este sitio web es solo con fines informativos y no constituye asesoramiento legal."
+  },
+  en: {
+    brandTag:"Attorney & Notary — Arecibo, PR", navHome:"Home", navServices:"Services", navArticles:"Articles", navContact:"Contact",
+    heroEyebrow:"Articles · Puerto Rico",
+    heroTitle:"Clear guides to legal and notarial procedures in Puerto Rico",
+    heroSub:"Straightforward explanations, written by an attorney-notary, so you understand your situation before you hire.",
+    emptyTitle:"We're preparing our first articles",
+    emptySub:"Check back soon — we publish new guides regularly on affidavits, wills, estates, real estate, and more.",
+    readMore:"Read more →",
+    footerRole:"Attorney & Notary Public, Arecibo, Puerto Rico",
+    footerDisclaimer:"This website is for informational purposes only and does not constitute legal advice."
+  }
+};
+
+let currentLang = sessionStorage.getItem('anpr_lang') || 'es';
+
+function renderArticles(lang){
+  const grid = document.getElementById('articlesGrid');
+  const empty = document.getElementById('emptyState');
+  const live = ARTICLES.filter(a => a.live);
+  grid.innerHTML = '';
+  if(live.length === 0){
+    empty.style.display = 'block';
+    return;
+  }
+  empty.style.display = 'none';
+  live.forEach(a=>{
+    const card = document.createElement('a');
+    card.className = 'article-card';
+    card.href = a.url;
+    card.innerHTML = `
+      <span class="cat">${lang==='es'?a.category_es:a.category_en}</span>
+      <h3>${lang==='es'?a.title_es:a.title_en}</h3>
+      <p>${lang==='es'?a.summary_es:a.summary_en}</p>
+      <span class="readmore">${I18N[lang].readMore}</span>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+function applyI18n(lang){
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-i18n]').forEach(el=>{
+    const key = el.getAttribute('data-i18n');
+    if(I18N[lang][key]) el.innerHTML = I18N[lang][key];
+  });
+  document.getElementById('langToggle').textContent = lang === 'es' ? 'EN' : 'ES';
+  renderArticles(lang);
+}
+
+function toggleLang(){
+  currentLang = currentLang === 'es' ? 'en' : 'es';
+  sessionStorage.setItem('anpr_lang', currentLang);
+  applyI18n(currentLang);
+}
+
+applyI18n(currentLang);
+</script>
+
+</body>
+</html>
