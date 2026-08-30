@@ -1,163 +1,205 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>¿Qué es un Affidávit y Cuándo lo Necesito en Puerto Rico? | Guía 2026</title>
-<meta name="description" content="Aprenda qué es una declaración jurada (affidávit) en Puerto Rico, cuándo se requiere, y los pasos para juramentarla ante un notario. Guía escrita por un abogado de Arecibo.">
-<link rel="canonical" href="https://abogadosnotariospuertorico.com/articulo-affidavit-que-es.html">
+<meta name="description" content="Aprenda qué es una declaración jurada (affidávit) en Puerto Rico, cuándo se requiere, y los pasos para juramentarla ante un notario. Guía escrita por un abogado de Arecibo." />
+<link rel="canonical" href="https://abogadosnotariospuertorico.com/articulo-affidavit-que-es.html" />
+
+<meta property="og:type" content="article" />
+<meta property="og:title" content="¿Qué es un Affidávit y Cuándo lo Necesito en Puerto Rico?" />
+<meta property="og:description" content="Aprenda qué es una declaración jurada en Puerto Rico, cuándo se requiere, y los pasos para juramentarla ante un notario." />
+<meta property="og:url" content="https://abogadosnotariospuertorico.com/articulo-affidavit-que-es.html" />
+<meta property="og:image" content="https://abogadosnotariospuertorico.com/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap');
   :root{
-    --ink:#1b2a3a; --ink-2:#2e4156; --parchment:#f4efe4; --parchment-2:#ece3d0;
-    --brass:#a87b32; --brass-light:#c79b52; --line: rgba(27,42,58,0.16); --green:#2f4a3b;
+    --bg-light:#F7F6F2;
+    --bg-line:#E6E3DA;
+    --ink:#1B1B18;
+    --ink-soft:#57564E;
+    --navy:#1F3A56;
+    --navy-deep:#132537;
+    --navy-mid:#2E5A82;
+    --gold:#C9A257;
+    --gold-light:#DCC07E;
+    --gold-deep:#A9803D;
+    --white:#FFFFFF;
+    --radius:6px;
+    --shadow: 0 12px 32px rgba(19,37,55,0.14);
   }
   *{box-sizing:border-box;}
-  body{ margin:0; background:var(--parchment); color:var(--ink); font-family:'Inter',sans-serif; line-height:1.65; }
-  h1,h2,h3{ font-family:'Source Serif 4', serif; font-weight:700; letter-spacing:-0.01em; color:var(--ink); }
-  a{ color:var(--brass); }
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important;}
+  }
+  body{margin:0;background:var(--white);color:var(--ink);font-family:'Inter',sans-serif;line-height:1.65;}
+  h1,h2,h3,h4{font-family:'Cormorant Garamond',serif;color:var(--ink);margin:0 0 .5em;line-height:1.2;font-weight:600;}
+  a{color:var(--navy-mid);}
+  .wrap{max-width:820px;margin:0 auto;padding:0 24px;}
+  :focus-visible{outline:3px solid var(--gold);outline-offset:2px;}
+
+  header.site{background:var(--bg-light);border-bottom:1px solid var(--bg-line);position:sticky;top:0;z-index:60;}
+  .header-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;max-width:1180px;margin:0 auto;flex-wrap:wrap;gap:14px;}
+  .brand{display:flex;align-items:center;gap:10px;text-decoration:none;}
+  .brand .brand-text{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:1.15rem;color:var(--navy);line-height:1.15;}
+  .brand .brand-text small{display:block;font-family:'Inter',sans-serif;font-weight:500;font-size:.66rem;color:var(--ink-soft);letter-spacing:.06em;text-transform:uppercase;margin-top:2px;}
+  nav.main-nav{display:flex;gap:26px;align-items:center;flex-wrap:wrap;}
+  nav.main-nav a{color:var(--ink);text-decoration:none;font-size:.92rem;font-weight:500;}
+  nav.main-nav a:hover{color:var(--navy-mid);}
+  #langToggle{background:var(--white);border:1px solid var(--bg-line);color:var(--navy);padding:7px 14px;border-radius:999px;cursor:pointer;font-size:.8rem;font-weight:600;}
+  #langToggle:hover{border-color:var(--gold);color:var(--gold-deep);}
+
+  .breadcrumb{padding:24px 0 0;font-size:.82rem;color:var(--ink-soft);}
+  .breadcrumb a{color:var(--ink-soft);text-decoration:none;}
+  .breadcrumb a:hover{color:var(--navy-mid);}
+
+  article{padding:18px 0 10px;}
+  .cat{font-family:'IBM Plex Mono',monospace;font-size:.7rem;color:var(--gold-deep);text-transform:uppercase;letter-spacing:.08em;display:block;margin-bottom:12px;}
+  article h1{font-size:clamp(1.9rem,3.6vw,2.5rem);max-width:720px;margin-bottom:10px;}
+  .byline{font-size:.82rem;color:var(--ink-soft);margin-bottom:34px;font-family:'Inter',sans-serif;}
+  article h2{font-size:1.4rem;color:var(--navy);margin-top:38px;margin-bottom:12px;}
+  article p{font-size:1rem;color:var(--ink-soft);margin:0 0 18px;font-family:'Inter',sans-serif;}
+  article ul{margin:0 0 18px;padding-left:20px;color:var(--ink-soft);font-family:'Inter',sans-serif;}
+  article li{margin-bottom:8px;}
+
+  .callout{
+    background:var(--bg-light);
+    border-left:3px solid var(--gold);
+    padding:18px 20px;
+    border-radius:var(--radius);
+    font-size:.94rem;
+    margin:28px 0;
+    font-family:'Inter',sans-serif;
+    color:var(--ink);
+  }
+
+  .cta-box{
+    margin:56px auto 70px;
+    padding:36px 30px;
+    background:linear-gradient(120deg, var(--navy-deep) 0%, var(--navy) 55%, var(--navy-mid) 100%);
+    color:var(--white);
+    border-radius:var(--radius);
+    text-align:center;
+    box-shadow:var(--shadow);
+  }
+  .cta-box h3{color:var(--white);margin-bottom:10px;}
+  .cta-box p{color:#DCE3E9;margin-bottom:20px;font-family:'Inter',sans-serif;}
+  .btn{
+    display:inline-block;padding:13px 28px;border-radius:999px;
+    font-weight:700;font-size:.88rem;text-decoration:none;
+    background:var(--gold);color:var(--navy-deep);
+  }
+  .btn:hover{background:var(--gold-light);}
+
+  footer.site{background:var(--bg-light);padding:44px 0;text-align:center;border-top:1px solid var(--bg-line);}
+  footer.site p{color:var(--ink-soft);font-size:.82rem;max-width:720px;margin:6px auto;font-family:'Inter',sans-serif;}
+  footer.site .contact{color:var(--navy);font-weight:700;font-size:1rem;margin-bottom:6px;font-family:'Cormorant Garamond',serif;}
+
+  @media(max-width:640px){nav.main-nav{display:none;}}
 
   [data-lang="en"]{display:none;}
   body.lang-en [data-lang="es"]{display:none;}
   body.lang-en [data-lang="en"]{display:initial;}
-
-  .lang-toggle{
-    position:fixed; top:18px; right:18px; z-index:50;
-    display:flex; border:1px solid var(--ink); border-radius:999px;
-    overflow:hidden; background:var(--parchment); font-size:13px; font-weight:600;
-  }
-  .lang-toggle button{ border:none; background:transparent; padding:7px 14px; cursor:pointer; color:var(--ink); font-family:inherit; }
-  .lang-toggle button.active{ background:var(--ink); color:var(--parchment); }
-
-  .site-nav{
-    display:flex; align-items:center; justify-content:space-between;
-    padding:18px 24px; border-bottom:1px solid var(--line); font-size:14px;
-  }
-  .site-nav-logo{ font-family:'Source Serif 4', serif; font-weight:700; text-decoration:none; color:var(--ink); font-size:16px; }
-  .site-nav-links{ display:flex; gap:24px; }
-  .site-nav-links a{ text-decoration:none; color:var(--ink-2); font-weight:600; }
-  .site-nav-links a:hover{ color:var(--ink); }
-
-  article{
-    max-width:680px;
-    margin:0 auto;
-    padding:56px 24px 30px;
-  }
-  .breadcrumb{
-    font-size:13px;
-    color:var(--ink-2);
-    margin-bottom:20px;
-  }
-  .breadcrumb a{ color:var(--ink-2); text-decoration:none; }
-  .tag{
-    font-size:11px; text-transform:uppercase; letter-spacing:0.08em;
-    color:var(--green); font-weight:700; display:block; margin-bottom:12px;
-  }
-  article h1{ font-size:clamp(28px,4vw,38px); line-height:1.18; margin-bottom:10px; }
-  .byline{ font-size:13px; color:var(--ink-2); margin-bottom:36px; }
-  article h2{ font-size:22px; margin-top:42px; margin-bottom:14px; }
-  article p{ margin:0 0 18px; font-size:16px; color:var(--ink-2); }
-  article ul{ margin:0 0 18px; padding-left:20px; color:var(--ink-2); }
-  article li{ margin-bottom:8px; }
-  .callout{
-    background:var(--parchment-2);
-    border-left:3px solid var(--brass);
-    padding:18px 20px;
-    border-radius:4px;
-    font-size:15px;
-    margin:28px 0;
-  }
-  .cta-box{
-    max-width:680px;
-    margin:50px auto 80px;
-    padding:34px 28px;
-    background:var(--ink);
-    color:var(--parchment);
-    border-radius:6px;
-    text-align:center;
-  }
-  .cta-box h3{ color:var(--parchment); margin-bottom:10px; }
-  .cta-box p{ color:var(--parchment-2); margin-bottom:20px; }
-  .btn{
-    display:inline-block; padding:13px 26px; border-radius:4px;
-    font-weight:700; font-size:14px; text-decoration:none;
-    background:var(--brass); color:var(--ink);
-  }
-  footer{ text-align:center; padding:30px 24px 60px; font-size:13px; color:var(--ink-2); }
 </style>
 </head>
 <body>
 
-<div class="lang-toggle">
-  <button id="btn-es" class="active" onclick="setLang('es')">ES</button>
-  <button id="btn-en" onclick="setLang('en')">EN</button>
-</div>
-
-<nav class="site-nav">
-  <a href="index.html" class="site-nav-logo">
-    <span data-lang="es">Lcdo. — Notario</span>
-    <span data-lang="en">Esq. — Notary</span>
-  </a>
-  <div class="site-nav-links">
-    <a href="index.html#intake"><span data-lang="es">Solicitar</span><span data-lang="en">Request</span></a>
-    <a href="articulos.html"><span data-lang="es">Artículos</span><span data-lang="en">Articles</span></a>
+<header class="site">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line x1="24" y1="6" x2="24" y2="34" stroke="#1F3A56" stroke-width="2"/>
+        <line x1="10" y1="12" x2="38" y2="12" stroke="#1F3A56" stroke-width="2"/>
+        <path d="M10 12 L4 22 A6 6 0 0 0 16 22 Z" stroke="#C9A257" stroke-width="2" fill="none" stroke-linejoin="round"/>
+        <path d="M38 12 L32 22 A6 6 0 0 0 44 22 Z" stroke="#C9A257" stroke-width="2" fill="none" stroke-linejoin="round"/>
+        <rect x="17" y="34" width="14" height="3" rx="1" fill="#1F3A56"/>
+        <rect x="20" y="37" width="8" height="4" rx="1" fill="#1F3A56"/>
+      </svg>
+      <span class="brand-text">Lcdo. Jafet Martínez Molina
+        <small><span data-lang="es">Abogado &amp; Notario — Arecibo, PR</span><span data-lang="en">Attorney &amp; Notary — Arecibo, PR</span></small>
+      </span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html"><span data-lang="es">Inicio</span><span data-lang="en">Home</span></a>
+      <a href="servicios.html"><span data-lang="es">Servicios</span><span data-lang="en">Services</span></a>
+      <a href="articulos.html"><span data-lang="es">Artículos</span><span data-lang="en">Articles</span></a>
+      <a href="index.html#solicitar"><span data-lang="es">Contacto</span><span data-lang="en">Contact</span></a>
+    </nav>
+    <button id="langToggle" onclick="setLang(currentLang==='es'?'en':'es')">EN</button>
   </div>
-</nav>
+</header>
 
-<article>
+<div class="wrap">
   <p class="breadcrumb">
     <a href="articulos.html"><span data-lang="es">Artículos</span><span data-lang="en">Articles</span></a> /
-    <span data-lang="es">Declaraciones Juradas</span><span data-lang="en">Affidavits</span>
+    <span data-lang="es">Notaría</span><span data-lang="en">Notarial</span>
   </p>
-  <span class="tag"><span data-lang="es">Declaraciones Juradas</span><span data-lang="en">Affidavits</span></span>
-  <h1><span data-lang="es">¿Qué es un affidávit y cuándo lo necesito en Puerto Rico?</span><span data-lang="en">What is an affidavit and when do I need one in Puerto Rico?</span></h1>
-  <p class="byline"><span data-lang="es">Actualizado · 2026 · Lectura de 4 min</span><span data-lang="en">Updated · 2026 · 4 min read</span></p>
 
-  <p data-lang="es">Un affidávit, o declaración jurada, es un documento escrito en el que una persona declara hechos bajo juramento ante un notario público. Al firmarlo, la persona certifica que lo expresado es cierto, bajo las penalidades que impone la ley por perjurio si resulta ser falso.</p>
-  <p data-lang="en">An affidavit is a written document in which a person states facts under oath before a notary public. By signing it, the person certifies that the statement is true, under the legal penalties for perjury if it turns out to be false.</p>
+  <article>
+    <span class="cat"><span data-lang="es">Notaría</span><span data-lang="en">Notarial</span></span>
+    <h1><span data-lang="es">¿Qué es un affidávit y cuándo lo necesito en Puerto Rico?</span><span data-lang="en">What is an affidavit and when do I need one in Puerto Rico?</span></h1>
+    <p class="byline"><span data-lang="es">Actualizado · 2026 · Lectura de 4 min</span><span data-lang="en">Updated · 2026 · 4 min read</span></p>
 
-  <h2><span data-lang="es">¿Para qué se usa un affidávit?</span><span data-lang="en">What is an affidavit used for?</span></h2>
-  <p data-lang="es">En Puerto Rico, los affidávits se utilizan en una gran variedad de trámites, tanto judiciales como administrativos. Algunos de los usos más comunes incluyen:</p>
-  <p data-lang="en">In Puerto Rico, affidavits are used in a wide range of judicial and administrative procedures. Some of the most common uses include:</p>
-  <ul>
-    <li><span data-lang="es">Procesos de manutención de menores ante ASUME, cuando se necesita declarar ingresos o cambios en circunstancias.</span><span data-lang="en">Child support proceedings before ASUME, when income or changes in circumstances need to be declared.</span></li>
-    <li><span data-lang="es">Disputas de contribución sobre la propiedad (CRIM), incluyendo reclamos de deuda retroactiva.</span><span data-lang="en">Property tax disputes (CRIM), including retroactive debt claims.</span></li>
-    <li><span data-lang="es">Autorizaciones y poderes, como cuando una persona autoriza a otra a realizar gestiones en su nombre.</span><span data-lang="en">Authorizations and powers of attorney, such as when someone authorizes another person to act on their behalf.</span></li>
-    <li><span data-lang="es">Procedimientos civiles, incluyendo peticiones judiciales que requieren prueba documental jurada.</span><span data-lang="en">Civil proceedings, including court petitions that require sworn documentary evidence.</span></li>
-  </ul>
+    <p data-lang="es">Un affidávit, o declaración jurada, es un documento escrito en el que una persona declara hechos bajo juramento ante un notario público. Al firmarlo, la persona certifica que lo expresado es cierto, bajo las penalidades que impone la ley por perjurio si resulta ser falso.</p>
+    <p data-lang="en">An affidavit is a written document in which a person states facts under oath before a notary public. By signing it, the person certifies that the statement is true, under the legal penalties for perjury if it turns out to be false.</p>
 
-  <h2><span data-lang="es">¿Cómo se juramenta un affidávit?</span><span data-lang="en">How is an affidavit notarized?</span></h2>
-  <p data-lang="es">El proceso generalmente sigue estos pasos: primero se redacta el documento con los hechos específicos del caso; luego la persona se presenta ante un notario público —en persona o, en algunos casos, de forma remota— para firmar y jurar el contenido; finalmente, el notario certifica la firma con su sello.</p>
-  <p data-lang="en">The process generally follows these steps: first, the document is drafted with the specific facts of the case; then the person appears before a notary public — in person or, in some cases, remotely — to sign and swear to the content; finally, the notary certifies the signature with their seal.</p>
+    <h2><span data-lang="es">¿Para qué se usa un affidávit?</span><span data-lang="en">What is an affidavit used for?</span></h2>
+    <p data-lang="es">En Puerto Rico, los affidávits se utilizan en una gran variedad de trámites, tanto judiciales como administrativos. Algunos de los usos más comunes incluyen:</p>
+    <p data-lang="en">In Puerto Rico, affidavits are used in a wide range of judicial and administrative procedures. Some of the most common uses include:</p>
+    <ul>
+      <li><span data-lang="es">Procesos de manutención de menores ante ASUME, cuando se necesita declarar ingresos o cambios en circunstancias.</span><span data-lang="en">Child support proceedings before ASUME, when income or changes in circumstances need to be declared.</span></li>
+      <li><span data-lang="es">Disputas de contribución sobre la propiedad (CRIM), incluyendo reclamos de deuda retroactiva.</span><span data-lang="en">Property tax disputes (CRIM), including retroactive debt claims.</span></li>
+      <li><span data-lang="es">Autorizaciones y poderes, como cuando una persona autoriza a otra a realizar gestiones en su nombre.</span><span data-lang="en">Authorizations and powers of attorney, such as when someone authorizes another person to act on their behalf.</span></li>
+      <li><span data-lang="es">Procedimientos civiles, incluyendo peticiones judiciales que requieren prueba documental jurada.</span><span data-lang="en">Civil proceedings, including court petitions that require sworn documentary evidence.</span></li>
+    </ul>
 
-  <div class="callout">
-    <span data-lang="es"><strong>Importante:</strong> un affidávit mal redactado o con hechos incompletos puede ser rechazado por la agencia o el tribunal correspondiente, retrasando el trámite. Por eso es recomendable que un abogado revise el contenido antes de juramentarlo.</span>
-    <span data-lang="en"><strong>Important:</strong> a poorly drafted affidavit, or one with incomplete facts, can be rejected by the relevant agency or court, delaying the process. That's why it's recommended that an attorney review the content before it's notarized.</span>
+    <h2><span data-lang="es">¿Cómo se juramenta un affidávit?</span><span data-lang="en">How is an affidavit notarized?</span></h2>
+    <p data-lang="es">El proceso generalmente sigue estos pasos: primero se redacta el documento con los hechos específicos del caso; luego la persona se presenta ante un notario público —en persona o, en algunos casos, de forma remota— para firmar y jurar el contenido; finalmente, el notario certifica la firma con su sello.</p>
+    <p data-lang="en">The process generally follows these steps: first, the document is drafted with the specific facts of the case; then the person appears before a notary public — in person or, in some cases, remotely — to sign and swear to the content; finally, the notary certifies the signature with their seal.</p>
+
+    <div class="callout">
+      <span data-lang="es"><strong>Importante:</strong> un affidávit mal redactado o con hechos incompletos puede ser rechazado por la agencia o el tribunal correspondiente, retrasando el trámite. Por eso es recomendable que un abogado revise el contenido antes de juramentarlo.</span>
+      <span data-lang="en"><strong>Important:</strong> a poorly drafted affidavit, or one with incomplete facts, can be rejected by the relevant agency or court, delaying the process. That's why it's recommended that an attorney review the content before it's notarized.</span>
+    </div>
+
+    <h2><span data-lang="es">¿Cuánto toma el proceso?</span><span data-lang="en">How long does the process take?</span></h2>
+    <p data-lang="es">Para la mayoría de los casos sencillos, un affidávit puede redactarse y juramentarse en cuestión de días, siempre que se cuente con la información completa desde el inicio. Casos más complejos, como los que involucran disputas de propiedad con historial extenso, pueden tomar más tiempo de preparación.</p>
+    <p data-lang="en">For most straightforward cases, an affidavit can be drafted and notarized within days, as long as complete information is available from the start. More complex cases, such as those involving property disputes with an extensive history, may require more preparation time.</p>
+  </article>
+
+  <div class="cta-box">
+    <h3><span data-lang="es">¿Necesita preparar un affidávit?</span><span data-lang="en">Need to prepare an affidavit?</span></h3>
+    <p><span data-lang="es">Complete el formulario y nos pondremos en contacto en menos de 24 horas laborables.</span><span data-lang="en">Fill out the form and we'll be in touch within 24 business hours.</span></p>
+    <a href="index.html#solicitar" class="btn"><span data-lang="es">Comenzar mi solicitud</span><span data-lang="en">Start my request</span></a>
   </div>
-
-  <h2><span data-lang="es">¿Cuánto toma el proceso?</span><span data-lang="en">How long does the process take?</span></h2>
-  <p data-lang="es">Para la mayoría de los casos sencillos, un affidávit puede redactarse y juramentarse en cuestión de días, siempre que se cuente con la información completa desde el inicio. Casos más complejos, como los que involucran disputas de propiedad con historial extenso, pueden tomar más tiempo de preparación.</p>
-  <p data-lang="en">For most straightforward cases, an affidavit can be drafted and notarized within days, as long as complete information is available from the start. More complex cases, such as those involving property disputes with an extensive history, may require more preparation time.</p>
-
-</article>
-
-<div class="cta-box">
-  <h3><span data-lang="es">¿Necesita preparar un affidávit?</span><span data-lang="en">Need to prepare an affidavit?</span></h3>
-  <p><span data-lang="es">Complete el formulario y nos pondremos en contacto en 1–2 días laborables.</span><span data-lang="en">Fill out the form and we'll be in touch within 1–2 business days.</span></p>
-  <a href="index.html#intake" class="btn"><span data-lang="es">Comenzar mi solicitud</span><span data-lang="en">Start my request</span></a>
 </div>
 
-<footer>
-  <span data-lang="es">Arecibo, Puerto Rico · Esta página es informativa y no constituye asesoramiento legal.</span>
-  <span data-lang="en">Arecibo, Puerto Rico · This page is informational and does not constitute legal advice.</span>
+<footer class="site">
+  <div class="wrap">
+    <p class="contact">Lcdo. Jafet Martínez Molina — <span data-lang="es">Abogado &amp; Notario Público, Arecibo, Puerto Rico</span><span data-lang="en">Attorney &amp; Notary Public, Arecibo, Puerto Rico</span></p>
+    <p>Tel/WhatsApp: (939) 390-5210 &nbsp;·&nbsp; Email: intakecetigroup@gmail.com</p>
+    <p><span data-lang="es">Este sitio web es solo con fines informativos y no constituye asesoramiento legal.</span><span data-lang="en">This website is for informational purposes only and does not constitute legal advice.</span></p>
+  </div>
 </footer>
 
 <script>
+let currentLang = sessionStorage.getItem('anpr_lang') || 'es';
 function setLang(lang){
+  currentLang = lang;
+  sessionStorage.setItem('anpr_lang', lang);
+  document.documentElement.lang = lang;
   document.body.classList.toggle('lang-en', lang === 'en');
-  document.getElementById('btn-es').classList.toggle('active', lang === 'es');
-  document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+  document.getElementById('langToggle').textContent = lang === 'es' ? 'EN' : 'ES';
 }
+setLang(currentLang);
 </script>
 
 </body>
